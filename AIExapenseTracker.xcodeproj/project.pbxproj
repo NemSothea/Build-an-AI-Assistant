@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		166593AC2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
+		166593AD2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
+		166593AE2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
+		166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 166593B12D0801B7005F9856 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1665938D2D07FC93005F9856 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +34,57 @@
 		1665937C2D07FC91005F9856 /* AIExapenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIExapenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1665938C2D07FC93005F9856 /* AIExapenseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIExapenseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		166593962D07FC93005F9856 /* AIExapenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIExapenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		166593AB2D07FDFB005F9856 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		166593B52D08030E005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1665937B2D07FC91005F9856 /* AIExapenseTracker */;
+		};
+		166593BA2D081B5A005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTrackerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppDelegate.swift,
+				DataBaseManager.swift,
+				Models/Category.swift,
+				Models/ExspenseLog.swift,
+				Models/SortType.swift,
+				Utils.swift,
+				ViewModels/logListViewModel.swift,
+				Views/FilterCategoriesView.swift,
+				Views/SelectSortOrderView.swift,
+			);
+			target = 1665938B2D07FC93005F9856 /* AIExapenseTrackerTests */;
+		};
+		166593BB2D081B5A005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTrackerUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppDelegate.swift,
+				DataBaseManager.swift,
+				Models/Category.swift,
+				Models/ExspenseLog.swift,
+				Models/SortType.swift,
+				Utils.swift,
+				ViewModels/logListViewModel.swift,
+				Views/FilterCategoriesView.swift,
+				Views/SelectSortOrderView.swift,
+			);
+			target = 166593952D07FC93005F9856 /* AIExapenseTrackerUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1665937E2D07FC91005F9856 /* AIExapenseTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				166593B52D08030E005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTracker" target */,
+				166593BA2D081B5A005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTrackerTests" target */,
+				166593BB2D081B5A005F9856 /* Exceptions for "AIExapenseTracker" folder in "AIExapenseTrackerUITests" target */,
+			);
 			path = AIExapenseTracker;
 			sourceTree = "<group>";
 		};
@@ -52,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +129,11 @@
 		166593732D07FC91005F9856 = {
 			isa = PBXGroup;
 			children = (
+				166593AB2D07FDFB005F9856 /* README.md */,
 				1665937E2D07FC91005F9856 /* AIExapenseTracker */,
 				1665938F2D07FC93005F9856 /* AIExapenseTrackerTests */,
 				166593992D07FC93005F9856 /* AIExapenseTrackerUITests */,
+				166593B02D0801B7005F9856 /* Frameworks */,
 				1665937D2D07FC91005F9856 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +146,13 @@
 				166593962D07FC93005F9856 /* AIExapenseTrackerUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		166593B02D0801B7005F9856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +175,7 @@
 			);
 			name = AIExapenseTracker;
 			packageProductDependencies = (
+				166593B12D0801B7005F9856 /* FirebaseFirestore */,
 			);
 			productName = AIExapenseTracker;
 			productReference = 1665937C2D07FC91005F9856 /* AIExapenseTracker.app */;
@@ -195,6 +259,9 @@
 			);
 			mainGroup = 166593732D07FC91005F9856;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1665937D2D07FC91005F9856 /* Products */;
 			projectDirPath = "";
@@ -212,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166593AE2D07FDFB005F9856 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166593AD2D07FDFB005F9856 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166593AC2D07FDFB005F9856 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,12 +463,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AIExapenseTracker/AIExapenseTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIExapenseTracker/Preview Content\"";
-				DEVELOPMENT_TEAM = PBJ22NG3WU;
+				DEVELOPMENT_TEAM = 8J7X8FNBGH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIExapenseTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +483,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.cok.AIExapenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,12 +498,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AIExapenseTracker/AIExapenseTracker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIExapenseTracker/Preview Content\"";
-				DEVELOPMENT_TEAM = PBJ22NG3WU;
+				DEVELOPMENT_TEAM = 8J7X8FNBGH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIExapenseTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +518,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.cok.AIExapenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -558,6 +640,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		166593B12D0801B7005F9856 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 166593742D07FC91005F9856 /* Project object */;
 }
