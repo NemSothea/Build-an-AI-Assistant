@@ -54,8 +54,13 @@
 				Models/ExspenseLog.swift,
 				Models/SortType.swift,
 				Utils.swift,
+				ViewModels/logFormViewModel.swift,
 				ViewModels/logListViewModel.swift,
+				Views/CategoriesImageView.swift,
 				Views/FilterCategoriesView.swift,
+				Views/LogItemView.swift,
+				Views/LogListContainerView.swift,
+				Views/LogListView.swift,
 				Views/SelectSortOrderView.swift,
 			);
 			target = 1665938B2D07FC93005F9856 /* AIExapenseTrackerTests */;
@@ -69,8 +74,13 @@
 				Models/ExspenseLog.swift,
 				Models/SortType.swift,
 				Utils.swift,
+				ViewModels/logFormViewModel.swift,
 				ViewModels/logListViewModel.swift,
+				Views/CategoriesImageView.swift,
 				Views/FilterCategoriesView.swift,
+				Views/LogItemView.swift,
+				Views/LogListContainerView.swift,
+				Views/LogListView.swift,
 				Views/SelectSortOrderView.swift,
 			);
 			target = 166593952D07FC93005F9856 /* AIExapenseTrackerUITests */;
@@ -488,6 +498,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				"SWIFT_OPTIMIZATION_LEVEL[sdk=macosx*]" = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -11,8 +11,9 @@ struct SelectSortOrderView: View {
     
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
-    @Binding var sortOrder: SortOrder
     @Binding var sortType: SortType
+    @Binding var sortOrder: SortOrder
+   
     
     
     private let sortTypes = SortType.allCases
@@ -64,5 +65,5 @@ struct SelectSortOrderView: View {
 
 #Preview {
     @Previewable @State var vm = LogListViewModel()
-    return SelectSortOrderView(sortOrder: $vm.sortOrder, sortType: $vm.sortType)
+    SelectSortOrderView( sortType: $vm.sortType, sortOrder: $vm.sortOrder)
 }

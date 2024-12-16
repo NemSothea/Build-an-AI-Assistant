@@ -7,6 +7,7 @@
 
 import Foundation
 import Observation
+import FirebaseFirestore
 
 @Observable
 class LogListViewModel {
@@ -23,6 +24,18 @@ class LogListViewModel {
     
     var logToEdit: ExspenseLog?
     
+    
+    var predicates : [QueryPredicate] {
+        var predicates: [QueryPredicate] = [QueryPredicate]()
+        if selectedCategories.count > 0 {
+            
+            predicates.append(.whereField("category", isIn: Array(selectedCategories).map{$0.rawValue}))
+                              
+        }
+        
+        predicates.append(.order(by: sortType.rawValue, descending: sortOrder == .descending ? true : false))
+        return predicates
+    }
     
     
 }
