@@ -12,7 +12,7 @@ enum Category: String, Identifiable, CaseIterable {
     
     var id: Self { self }
     
-    case weCoffeeFees = "We Coffee"
+    case Drink = "Drink"
     case accountingAndLegalFees = "Accounting and legal fees"
     case bankFees = "Bank fees"
     case consultantsAndProfessionalServices = "Consultants and professional services"
@@ -41,7 +41,7 @@ enum Category: String, Identifiable, CaseIterable {
     
     var systemNameIcon: String {
         switch self {
-        case .weCoffeeFees: return "takeoutbag.and.cup.and.straw.fill"
+        case .Drink: return "takeoutbag.and.cup.and.straw.fill"
         case .insurance: return "shield"
         case .utilities: return "drop"
         case .marketing: return "megaphone"
@@ -72,7 +72,7 @@ enum Category: String, Identifiable, CaseIterable {
     
     var color: Color {
         switch self {
-        case .weCoffeeFees:return Color(red: 0.082, green: 0.520, blue: 0.120)
+        case .Drink:return Color(red: 0.082, green: 0.520, blue: 0.120)
         case .insurance: return Color(red: 0.086, green: 0.525, blue: 0.820)
         case .utilities: return Color(red: 0.369, green: 0.769, blue: 0.439)
         case .marketing: return Color(red: 0.843, green: 0.000, blue: 0.239)

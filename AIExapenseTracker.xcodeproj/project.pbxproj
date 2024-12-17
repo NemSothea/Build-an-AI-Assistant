@@ -58,6 +58,7 @@
 				ViewModels/logListViewModel.swift,
 				Views/CategoriesImageView.swift,
 				Views/FilterCategoriesView.swift,
+				Views/LogFormView.swift,
 				Views/LogItemView.swift,
 				Views/LogListContainerView.swift,
 				Views/LogListView.swift,
@@ -78,6 +79,7 @@
 				ViewModels/logListViewModel.swift,
 				Views/CategoriesImageView.swift,
 				Views/FilterCategoriesView.swift,
+				Views/LogFormView.swift,
 				Views/LogItemView.swift,
 				Views/LogListContainerView.swift,
 				Views/LogListView.swift,
@@ -491,16 +493,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.cok.AIExapenseTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.co.AIExapenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				"SWIFT_OPTIMIZATION_LEVEL[sdk=macosx*]" = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -527,15 +530,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.cok.AIExapenseTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = simpledemo.co.AIExapenseTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};

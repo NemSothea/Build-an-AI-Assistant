@@ -31,6 +31,7 @@ struct LogListContainerView: View {
                             .tint(.accentColor)
                         Text("Add Exapense log")
                     }
+                    .foregroundStyle(Color.accentColor)
 #else
                     Text("Add")
 #endif
@@ -38,11 +39,11 @@ struct LogListContainerView: View {
             }
         }
         .sheet(isPresented: $vm.isLogFormPresented) {
-            Text("TODO: log Form VIew")
+            LogFormView(vm: .init())
         }
         
 #if !os(macOS)
-    .navigationBarTitle("ACA AI Expense Tracker",displayMode:.inline)
+    .navigationBarTitle("KOSIGN AI Expense Tracker",displayMode:.inline)
 #endif
     }
     

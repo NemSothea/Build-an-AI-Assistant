@@ -14,10 +14,10 @@ struct ContentView: View {
     
     
     var body: some View {
-        #if os(macOS)
+#if os(macOS)
         splitView
 #elseif os(visionOS)
-        TabView
+        tapView
 #else
         switch horizontalSizeClass {
         case .compact: tapView
@@ -59,7 +59,7 @@ struct ContentView: View {
         } detail : {
             LogListContainerView(vm: $vm)
         }
-        .navigationTitle("XCA AI Expenses Tracker")
+        .navigationTitle("KOSIGN AI Expenses Tracker")
     }
 }
 

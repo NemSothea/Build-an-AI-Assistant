@@ -62,6 +62,9 @@ class FormViewModel  {
 
         
     }
+    func delete(log: ExspenseLog) {
+        db.delete(log: log)
+    }
     
 }
 

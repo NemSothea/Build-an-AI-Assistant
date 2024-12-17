@@ -21,7 +21,7 @@ struct LogListView: View {
             .sheet(item: $vm.logToEdit, onDismiss: {
                 vm.logToEdit = nil
             }) { log in
-                Text("TODO: Edit Form title")
+                LogFormView(vm:.init(logToEdit: log))
             }
             .overlay {
                 if logs.isEmpty {
@@ -65,7 +65,7 @@ struct LogListView: View {
                         LogItemView(log: log)
                         Divider()
                     }
-                    .frame(maxWidth: 0, maxHeight: .infinity,alignment: .leading)
+                    .frame(minWidth: 0, maxHeight: .infinity,alignment: .leading)
                     .contentShape(Rectangle())
                     .padding(.horizontal)
                     .onTapGesture {
@@ -81,7 +81,7 @@ struct LogListView: View {
                     }
                 
                 }
-            .contentMargins(.vertical,8,for: .scrollContent)
+                .contentMargins(.vertical,8,for: .scrollContent)
         }
     }
 #endif

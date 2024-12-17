@@ -16,6 +16,7 @@ struct FilterCategoriesView: View {
         VStack {
             ScrollView(.horizontal) {
                 HStack(spacing:8) {
+                    
                     ForEach(categories) { category in
                         FilterButtonView(category: category, isSelected: self.selectedCategories.contains(category), onTap: self.onTap)
                     }

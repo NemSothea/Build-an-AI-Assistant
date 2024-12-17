@@ -26,7 +26,7 @@ class DataBaseManager {
         logsCollection.document(log.id).updateData([
             "name" : log.name,
             "amount":log.amount,
-            "categroy":log.category,
+            "category":log.category,
             "date":log.date
         ])
     }

@@ -36,7 +36,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 #endif
 
 fileprivate func isPreviewRuntime() -> Bool {
-    ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEW"] == "1"
+    ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
 }
 
 fileprivate func setupFirebase() {
