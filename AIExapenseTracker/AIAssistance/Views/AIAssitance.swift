@@ -7,9 +7,43 @@
 
 import SwiftUI
 
+enum ChatType : String,CaseIterable, Identifiable {
+    case text = "Text"
+    case void = "Voice"
+    var id: Self { self }
+}
+
 struct AIAssitance: View {
+    
+    @State var chatType: ChatType = .text
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Picker(selection: $chatType, label: Text("Chat type").font(.system(size: 12,weight: .bold))) {
+                ForEach(ChatType.allCases) { type in
+                    Text(type.rawValue).tag(type)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding(.horizontal)
+#if os(iOS)
+            .padding(.vertical)
+#endif
+            Divider()
+            ZStack {
+                switch chatType {
+                case .text:
+                    Text("TEXT CHAT")
+                case .void:
+                    Text("Voice CHAT")
+                }
+            }
+            .frame(maxWidth: 1024,alignment: .center)
+
+        }
+#if !os(macOS)
+.navigationBarTitle("KOSIGN AI Exspense Tracker",displayMode:.inline)
+#endif
     }
 }
 
