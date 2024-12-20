@@ -8,12 +8,13 @@
 import SwiftUI
 
 enum ChatType : String,CaseIterable, Identifiable {
+    
     case text = "Text"
     case void = "Voice"
     var id: Self { self }
 }
 
-struct AIAssitance: View {
+struct AIAssitantView: View {
     
     @State var chatType: ChatType = .text
     
@@ -48,5 +49,5 @@ struct AIAssitance: View {
 }
 
 #Preview {
-    AIAssitance()
+    AIAssitantView()
 }

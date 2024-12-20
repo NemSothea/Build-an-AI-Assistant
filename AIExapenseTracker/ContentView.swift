@@ -50,7 +50,7 @@ struct ContentView: View {
                 NavigationLink(destination: LogListView(vm: $vm)) {
                     Label("Exspense", systemImage: "tray")
                 }
-                NavigationLink(destination: Text("AI Assistant")) {
+                NavigationLink(destination: AIAssitantView()) {
                     Label("AI Assistant", systemImage: "waveform")
                 }
             }
