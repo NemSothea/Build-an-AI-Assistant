@@ -11,6 +11,10 @@
 		166593AD2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
 		166593AE2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
 		166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 166593B12D0801B7005F9856 /* FirebaseFirestore */; };
+		166A371B2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */ = {isa = PBXBuildFile; fileRef = 166A371A2D125CCD001320D8 /* AIExpenseTrackerDoc.key */; };
+		166A371C2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */ = {isa = PBXBuildFile; fileRef = 166A371A2D125CCD001320D8 /* AIExpenseTrackerDoc.key */; };
+		166A371D2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */ = {isa = PBXBuildFile; fileRef = 166A371A2D125CCD001320D8 /* AIExpenseTrackerDoc.key */; };
+		16AD651E2D12BA6E0086BCB1 /* ChatGPTUI in Frameworks */ = {isa = PBXBuildFile; productRef = 16AD651D2D12BA6E0086BCB1 /* ChatGPTUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,11 +34,35 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		166A37312D127AE3001320D8 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166A37492D1282FE001320D8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1665937C2D07FC91005F9856 /* AIExapenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIExapenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1665938C2D07FC93005F9856 /* AIExapenseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIExapenseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		166593962D07FC93005F9856 /* AIExapenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIExapenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		166593AB2D07FDFB005F9856 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		166A371A2D125CCD001320D8 /* AIExpenseTrackerDoc.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = AIExpenseTrackerDoc.key; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -117,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AD651E2D12BA6E0086BCB1 /* ChatGPTUI in Frameworks */,
 				166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +170,7 @@
 		166593732D07FC91005F9856 = {
 			isa = PBXGroup;
 			children = (
+				166A371A2D125CCD001320D8 /* AIExpenseTrackerDoc.key */,
 				166593AB2D07FDFB005F9856 /* README.md */,
 				1665937E2D07FC91005F9856 /* AIExapenseTracker */,
 				1665938F2D07FC93005F9856 /* AIExapenseTrackerTests */,
@@ -177,6 +207,8 @@
 				166593782D07FC91005F9856 /* Sources */,
 				166593792D07FC91005F9856 /* Frameworks */,
 				1665937A2D07FC91005F9856 /* Resources */,
+				166A37312D127AE3001320D8 /* Embed ExtensionKit Extensions */,
+				166A37492D1282FE001320D8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -188,6 +220,7 @@
 			name = AIExapenseTracker;
 			packageProductDependencies = (
 				166593B12D0801B7005F9856 /* FirebaseFirestore */,
+				16AD651D2D12BA6E0086BCB1 /* ChatGPTUI */,
 			);
 			productName = AIExapenseTracker;
 			productReference = 1665937C2D07FC91005F9856 /* AIExapenseTracker.app */;
@@ -273,6 +306,8 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				16AD651C2D12B6E90086BCB1 /* XCRemoteSwiftPackageReference "ChatGPTUI" */,
+				161111732D152CA400A3C9D7 /* XCRemoteSwiftPackageReference "OllamaKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1665937D2D07FC91005F9856 /* Products */;
@@ -292,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				166593AE2D07FDFB005F9856 /* README.md in Resources */,
+				166A371C2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166A371B2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */,
 				166593AD2D07FDFB005F9856 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166A371D2D125CCD001320D8 /* AIExpenseTrackerDoc.key in Resources */,
 				166593AC2D07FDFB005F9856 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +526,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,6 +564,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -657,12 +697,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		161111732D152CA400A3C9D7 /* XCRemoteSwiftPackageReference "OllamaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kevinhermawan/OllamaKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.6;
+			};
+		};
 		166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 11.6.0;
+			};
+		};
+		16AD651C2D12B6E90086BCB1 /* XCRemoteSwiftPackageReference "ChatGPTUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -672,6 +728,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		16AD651D2D12BA6E0086BCB1 /* ChatGPTUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16AD651C2D12B6E90086BCB1 /* XCRemoteSwiftPackageReference "ChatGPTUI" */;
+			productName = ChatGPTUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
