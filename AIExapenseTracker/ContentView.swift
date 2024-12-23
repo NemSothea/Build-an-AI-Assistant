@@ -37,7 +37,7 @@ struct ContentView: View {
             }.tag(0)
             
             NavigationStack {
-                Text("AI Assistant")
+                AIAssitantView()
             }
             .tabItem {
                 Label("AI Assistant", systemImage: "waveform")

@@ -1,5 +1,5 @@
 {
-  "originHash" : "adcbb867e2e2df684c593e378600657085f2edc37db6d9649be09a1eed20618d",
+  "originHash" : "b0caa9e26ab46fa16504d34affd6f5a91b4e7fef1fe4a2b3acb66a88b0ef9a27",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -20,30 +20,21 @@
       }
     },
     {
-      "identity" : "async-http-client",
+      "identity" : "chatfield",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swift-server/async-http-client.git",
+      "location" : "https://github.com/kevinhermawan/ChatField.git",
       "state" : {
-        "revision" : "2119f0d9cc1b334e25447fe43d3693c0e60e6234",
-        "version" : "1.24.0"
+        "revision" : "d4eb2c9070a74b9c115d88499c0374258d6b8285",
+        "version" : "3.0.4"
       }
     },
     {
-      "identity" : "chatgptswift",
+      "identity" : "defaults",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/ChatGPTSwift.git",
+      "location" : "https://github.com/sindresorhus/Defaults.git",
       "state" : {
-        "revision" : "3b2f2b6fe2ac38d4bfbcaeed8a637f22f51631b6",
-        "version" : "2.3.3"
-      }
-    },
-    {
-      "identity" : "chatgptui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/ChatGPTUI.git",
-      "state" : {
-        "revision" : "3c3e11c349092f0cd8e909a1cf3d0609c035628c",
-        "version" : "0.3.1"
+        "revision" : "ef1b2318fb549002bb533bec3a8ad98ae09f2cb6",
+        "version" : "9.0.0"
       }
     },
     {
@@ -83,15 +74,6 @@
       }
     },
     {
-      "identity" : "gptencoder",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/GPTEncoder.git",
-      "state" : {
-        "revision" : "a86968867ab4380e36b904a14c42215f71efe8b4",
-        "version" : "1.0.4"
-      }
-    },
-    {
       "identity" : "grpc-binary",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/grpc-binary.git",
@@ -110,12 +92,12 @@
       }
     },
     {
-      "identity" : "highlighterswift",
+      "identity" : "highlightr",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/HighlighterSwift.git",
+      "location" : "https://github.com/raspu/Highlightr.git",
       "state" : {
-        "revision" : "6d697f875a064dda825d943fe7f6b53edea08fe8",
-        "version" : "1.0.0"
+        "revision" : "bcf2d0590f32ac2528feb72d7e34f5b463801a47",
+        "version" : "2.2.1"
       }
     },
     {
@@ -146,6 +128,15 @@
       }
     },
     {
+      "identity" : "networkimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gonzalezreal/NetworkImage",
+      "state" : {
+        "revision" : "2849f5323265386e200484b0d0f896e73c3411b9",
+        "version" : "6.0.1"
+      }
+    },
+    {
       "identity" : "ollamakit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kevinhermawan/OllamaKit",
@@ -164,156 +155,30 @@
       }
     },
     {
-      "identity" : "siriwaveview",
+      "identity" : "sparkle",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/alfianlosari/SiriWaveView.git",
+      "location" : "https://github.com/sparkle-project/Sparkle",
       "state" : {
-        "revision" : "711287cd8d6ef16b5dbcced5ead82d93d0cb3c88",
-        "version" : "1.1.0"
-      }
-    },
-    {
-      "identity" : "swift-algorithms",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-algorithms.git",
-      "state" : {
-        "revision" : "f6919dfc309e7f1b56224378b11e28bab5bccc42",
-        "version" : "1.2.0"
-      }
-    },
-    {
-      "identity" : "swift-atomics",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-atomics.git",
-      "state" : {
-        "revision" : "cd142fd2f64be2100422d658e7411e39489da985",
-        "version" : "1.2.0"
+        "revision" : "0ef1ee0220239b3776f433314515fd849025673f",
+        "version" : "2.6.4"
       }
     },
     {
       "identity" : "swift-cmark",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-cmark.git",
+      "location" : "https://github.com/swiftlang/swift-cmark",
       "state" : {
         "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
         "version" : "0.5.0"
       }
     },
     {
-      "identity" : "swift-collections",
+      "identity" : "swift-markdown-ui",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-collections",
+      "location" : "https://github.com/gonzalezreal/swift-markdown-ui.git",
       "state" : {
-        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
-        "version" : "1.1.4"
-      }
-    },
-    {
-      "identity" : "swift-http-types",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-http-types",
-      "state" : {
-        "revision" : "ef18d829e8b92d731ad27bb81583edd2094d1ce3",
-        "version" : "1.3.1"
-      }
-    },
-    {
-      "identity" : "swift-log",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-log.git",
-      "state" : {
-        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
-        "version" : "1.6.2"
-      }
-    },
-    {
-      "identity" : "swift-markdown",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-markdown.git",
-      "state" : {
-        "revision" : "8f79cb175981458a0a27e76cb42fee8e17b1a993",
-        "version" : "0.5.0"
-      }
-    },
-    {
-      "identity" : "swift-nio",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-nio",
-      "state" : {
-        "revision" : "dca6594f65308c761a9c409e09fbf35f48d50d34",
-        "version" : "2.77.0"
-      }
-    },
-    {
-      "identity" : "swift-nio-extras",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-nio-extras.git",
-      "state" : {
-        "revision" : "2e9746cfc57554f70b650b021b6ae4738abef3e6",
-        "version" : "1.24.1"
-      }
-    },
-    {
-      "identity" : "swift-nio-http2",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-nio-http2.git",
-      "state" : {
-        "revision" : "170f4ca06b6a9c57b811293cebcb96e81b661310",
-        "version" : "1.35.0"
-      }
-    },
-    {
-      "identity" : "swift-nio-ssl",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-nio-ssl.git",
-      "state" : {
-        "revision" : "c7e95421334b1068490b5d41314a50e70bab23d1",
-        "version" : "2.29.0"
-      }
-    },
-    {
-      "identity" : "swift-nio-transport-services",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-nio-transport-services.git",
-      "state" : {
-        "revision" : "bbd5e63cf949b7db0c9edaf7a21e141c52afe214",
-        "version" : "1.23.0"
-      }
-    },
-    {
-      "identity" : "swift-numerics",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-numerics.git",
-      "state" : {
-        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
-        "version" : "1.0.2"
-      }
-    },
-    {
-      "identity" : "swift-openapi-async-http-client",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swift-server/swift-openapi-async-http-client",
-      "state" : {
-        "revision" : "915aeff168625b0f88a5810ee7ab8e9c00af671b",
-        "version" : "1.1.0"
-      }
-    },
-    {
-      "identity" : "swift-openapi-runtime",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-openapi-runtime",
-      "state" : {
-        "revision" : "5e119a3d52dde0229312ed586be99c666c6b6f64",
-        "version" : "1.7.0"
-      }
-    },
-    {
-      "identity" : "swift-openapi-urlsession",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-openapi-urlsession",
-      "state" : {
-        "revision" : "9bf4c712ad7989d6a91dbe68748b8829a50837e4",
-        "version" : "1.0.2"
+        "revision" : "5f613358148239d0292c0cef674a3c2314737f9e",
+        "version" : "2.4.1"
       }
     },
     {
@@ -326,12 +191,39 @@
       }
     },
     {
-      "identity" : "swift-system",
+      "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-system.git",
+      "location" : "https://github.com/swiftlang/swift-syntax",
       "state" : {
-        "revision" : "c8a44d836fe7913603e246acab7c528c2e780168",
-        "version" : "1.4.0"
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    },
+    {
+      "identity" : "swiftui-introspect",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/siteline/swiftui-introspect.git",
+      "state" : {
+        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "viewcondition",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevinhermawan/ViewCondition.git",
+      "state" : {
+        "revision" : "e4342ca47cef22c5bdfb7d67de4fca3b3e747891",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "viewstate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kevinhermawan/ViewState.git",
+      "state" : {
+        "revision" : "6c85c207c23edf487007542651e3533a80dfa0bc",
+        "version" : "1.2.2"
       }
     }
   ],

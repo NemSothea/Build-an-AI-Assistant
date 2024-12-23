@@ -34,7 +34,7 @@ struct AIAssitantView: View {
             ZStack {
                 switch chatType {
                 case .text:
-                    Text("TEXT CHAT")
+                    ChatView()
                 case .void:
                     Text("Voice CHAT")
                 }
@@ -48,6 +48,6 @@ struct AIAssitantView: View {
     }
 }
 
-#Preview {
-    AIAssitantView()
-}
+//#Preview {
+//    AIAssitantView()
+//}
