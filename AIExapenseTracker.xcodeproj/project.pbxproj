@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		166480932D157332005C783D /* OllamaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 166480922D157332005C783D /* OllamaKit */; };
-		166480952D15733B005C783D /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 166480942D15733B005C783D /* Defaults */; };
-		166480982D157666005C783D /* ChatField in Frameworks */ = {isa = PBXBuildFile; productRef = 166480972D157666005C783D /* ChatField */; };
-		1664809B2D1576C3005C783D /* ViewCondition in Frameworks */ = {isa = PBXBuildFile; productRef = 1664809A2D1576C3005C783D /* ViewCondition */; };
-		166480B82D1579C5005C783D /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 166480B72D1579C5005C783D /* MarkdownUI */; };
-		166480C22D1585C8005C783D /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = 166480C12D1585C8005C783D /* SwiftUIIntrospect */; };
-		166480E72D15885B005C783D /* ViewState in Frameworks */ = {isa = PBXBuildFile; productRef = 166480E62D15885B005C783D /* ViewState */; };
-		166480F02D158BBF005C783D /* Highlightr in Frameworks */ = {isa = PBXBuildFile; productRef = 166480EF2D158BBF005C783D /* Highlightr */; };
-		166480F52D1591C2005C783D /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 166480F42D1591C2005C783D /* Sparkle */; };
 		166593AE2D07FDFB005F9856 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166593AB2D07FDFB005F9856 /* README.md */; };
 		166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 166593B12D0801B7005F9856 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
@@ -84,16 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				166480C22D1585C8005C783D /* SwiftUIIntrospect in Frameworks */,
-				166480952D15733B005C783D /* Defaults in Frameworks */,
-				166480982D157666005C783D /* ChatField in Frameworks */,
-				1664809B2D1576C3005C783D /* ViewCondition in Frameworks */,
-				166480B82D1579C5005C783D /* MarkdownUI in Frameworks */,
-				166480F52D1591C2005C783D /* Sparkle in Frameworks */,
-				166480E72D15885B005C783D /* ViewState in Frameworks */,
 				166593B22D0801B7005F9856 /* FirebaseFirestore in Frameworks */,
-				166480F02D158BBF005C783D /* Highlightr in Frameworks */,
-				166480932D157332005C783D /* OllamaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,15 +132,6 @@
 			name = AIExapenseTracker;
 			packageProductDependencies = (
 				166593B12D0801B7005F9856 /* FirebaseFirestore */,
-				166480922D157332005C783D /* OllamaKit */,
-				166480942D15733B005C783D /* Defaults */,
-				166480972D157666005C783D /* ChatField */,
-				1664809A2D1576C3005C783D /* ViewCondition */,
-				166480B72D1579C5005C783D /* MarkdownUI */,
-				166480C12D1585C8005C783D /* SwiftUIIntrospect */,
-				166480E62D15885B005C783D /* ViewState */,
-				166480EF2D158BBF005C783D /* Highlightr */,
-				166480F42D1591C2005C783D /* Sparkle */,
 			);
 			productName = AIExapenseTracker;
 			productReference = 1665937C2D07FC91005F9856 /* AIExapenseTracker.app */;
@@ -190,15 +163,6 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				161111732D152CA400A3C9D7 /* XCRemoteSwiftPackageReference "OllamaKit" */,
-				166480912D157320005C783D /* XCRemoteSwiftPackageReference "Defaults" */,
-				166480962D157423005C783D /* XCRemoteSwiftPackageReference "ChatField" */,
-				166480992D1576B5005C783D /* XCRemoteSwiftPackageReference "ViewCondition" */,
-				166480B62D1579B5005C783D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
-				166480C02D15859F005C783D /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
-				166480E52D158851005C783D /* XCRemoteSwiftPackageReference "ViewState" */,
-				166480EE2D158BBF005C783D /* XCRemoteSwiftPackageReference "Highlightr" */,
-				166480F32D1591C2005C783D /* XCRemoteSwiftPackageReference "Sparkle" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1665937D2D07FC91005F9856 /* Products */;
@@ -450,78 +414,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		161111732D152CA400A3C9D7 /* XCRemoteSwiftPackageReference "OllamaKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kevinhermawan/OllamaKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.6;
-			};
-		};
-		166480912D157320005C783D /* XCRemoteSwiftPackageReference "Defaults" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sindresorhus/Defaults.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-		166480962D157423005C783D /* XCRemoteSwiftPackageReference "ChatField" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kevinhermawan/ChatField.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.4;
-			};
-		};
-		166480992D1576B5005C783D /* XCRemoteSwiftPackageReference "ViewCondition" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kevinhermawan/ViewCondition.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.1;
-			};
-		};
-		166480B62D1579B5005C783D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.4.1;
-			};
-		};
-		166480C02D15859F005C783D /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/siteline/swiftui-introspect";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.3.0;
-			};
-		};
-		166480E52D158851005C783D /* XCRemoteSwiftPackageReference "ViewState" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kevinhermawan/ViewState.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.2;
-			};
-		};
-		166480EE2D158BBF005C783D /* XCRemoteSwiftPackageReference "Highlightr" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/raspu/Highlightr.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.1;
-			};
-		};
-		166480F32D1591C2005C783D /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.6.4;
-			};
-		};
 		166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -533,51 +425,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		166480922D157332005C783D /* OllamaKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 161111732D152CA400A3C9D7 /* XCRemoteSwiftPackageReference "OllamaKit" */;
-			productName = OllamaKit;
-		};
-		166480942D15733B005C783D /* Defaults */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480912D157320005C783D /* XCRemoteSwiftPackageReference "Defaults" */;
-			productName = Defaults;
-		};
-		166480972D157666005C783D /* ChatField */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480962D157423005C783D /* XCRemoteSwiftPackageReference "ChatField" */;
-			productName = ChatField;
-		};
-		1664809A2D1576C3005C783D /* ViewCondition */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480992D1576B5005C783D /* XCRemoteSwiftPackageReference "ViewCondition" */;
-			productName = ViewCondition;
-		};
-		166480B72D1579C5005C783D /* MarkdownUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480B62D1579B5005C783D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
-			productName = MarkdownUI;
-		};
-		166480C12D1585C8005C783D /* SwiftUIIntrospect */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480C02D15859F005C783D /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
-			productName = SwiftUIIntrospect;
-		};
-		166480E62D15885B005C783D /* ViewState */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480E52D158851005C783D /* XCRemoteSwiftPackageReference "ViewState" */;
-			productName = ViewState;
-		};
-		166480EF2D158BBF005C783D /* Highlightr */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480EE2D158BBF005C783D /* XCRemoteSwiftPackageReference "Highlightr" */;
-			productName = Highlightr;
-		};
-		166480F42D1591C2005C783D /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 166480F32D1591C2005C783D /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
 		166593B12D0801B7005F9856 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 166593AF2D080172005F9856 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

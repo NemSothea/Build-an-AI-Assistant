@@ -1,5 +1,5 @@
 {
-  "originHash" : "b0caa9e26ab46fa16504d34affd6f5a91b4e7fef1fe4a2b3acb66a88b0ef9a27",
+  "originHash" : "c63c63846d9c539229e96de38d6af51417e28c0ee9a0bc48bd0f0f19d923c329",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -17,24 +17,6 @@
       "state" : {
         "revision" : "61b85103a1aeed8218f17c794687781505fbbef5",
         "version" : "11.2.0"
-      }
-    },
-    {
-      "identity" : "chatfield",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kevinhermawan/ChatField.git",
-      "state" : {
-        "revision" : "d4eb2c9070a74b9c115d88499c0374258d6b8285",
-        "version" : "3.0.4"
-      }
-    },
-    {
-      "identity" : "defaults",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sindresorhus/Defaults.git",
-      "state" : {
-        "revision" : "ef1b2318fb549002bb533bec3a8ad98ae09f2cb6",
-        "version" : "9.0.0"
       }
     },
     {
@@ -92,15 +74,6 @@
       }
     },
     {
-      "identity" : "highlightr",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/raspu/Highlightr.git",
-      "state" : {
-        "revision" : "bcf2d0590f32ac2528feb72d7e34f5b463801a47",
-        "version" : "2.2.1"
-      }
-    },
-    {
       "identity" : "interop-ios-for-google-sdks",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/interop-ios-for-google-sdks.git",
@@ -128,24 +101,6 @@
       }
     },
     {
-      "identity" : "networkimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/gonzalezreal/NetworkImage",
-      "state" : {
-        "revision" : "2849f5323265386e200484b0d0f896e73c3411b9",
-        "version" : "6.0.1"
-      }
-    },
-    {
-      "identity" : "ollamakit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kevinhermawan/OllamaKit",
-      "state" : {
-        "revision" : "95d4249382e2501a33377b50cfde2ea957d77ee6",
-        "version" : "5.0.6"
-      }
-    },
-    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
@@ -155,75 +110,12 @@
       }
     },
     {
-      "identity" : "sparkle",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sparkle-project/Sparkle",
-      "state" : {
-        "revision" : "0ef1ee0220239b3776f433314515fd849025673f",
-        "version" : "2.6.4"
-      }
-    },
-    {
-      "identity" : "swift-cmark",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-cmark",
-      "state" : {
-        "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
-        "version" : "0.5.0"
-      }
-    },
-    {
-      "identity" : "swift-markdown-ui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/gonzalezreal/swift-markdown-ui.git",
-      "state" : {
-        "revision" : "5f613358148239d0292c0cef674a3c2314737f9e",
-        "version" : "2.4.1"
-      }
-    },
-    {
       "identity" : "swift-protobuf",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-protobuf.git",
       "state" : {
         "revision" : "ebc7251dd5b37f627c93698e4374084d98409633",
         "version" : "1.28.2"
-      }
-    },
-    {
-      "identity" : "swift-syntax",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftlang/swift-syntax",
-      "state" : {
-        "revision" : "0687f71944021d616d34d922343dcef086855920",
-        "version" : "600.0.1"
-      }
-    },
-    {
-      "identity" : "swiftui-introspect",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/siteline/swiftui-introspect.git",
-      "state" : {
-        "revision" : "807f73ce09a9b9723f12385e592b4e0aaebd3336",
-        "version" : "1.3.0"
-      }
-    },
-    {
-      "identity" : "viewcondition",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kevinhermawan/ViewCondition.git",
-      "state" : {
-        "revision" : "e4342ca47cef22c5bdfb7d67de4fca3b3e747891",
-        "version" : "2.0.1"
-      }
-    },
-    {
-      "identity" : "viewstate",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kevinhermawan/ViewState.git",
-      "state" : {
-        "revision" : "6c85c207c23edf487007542651e3533a80dfa0bc",
-        "version" : "1.2.2"
       }
     }
   ],
