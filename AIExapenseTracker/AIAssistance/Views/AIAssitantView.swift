@@ -35,7 +35,7 @@ struct AIAssitantView: View {
                 switch chatType {
                 case .text:
                         // Will move code to use ChatGPT
-                    ChatView()
+                    Text("Voice CHAT")
                 case .void:
                     Text("Voice CHAT")
                 }
