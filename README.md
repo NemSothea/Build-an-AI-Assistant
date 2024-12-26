@@ -22,9 +22,9 @@ This is the first part of a new series where we will build an AI Assistant Expen
 
 -> firebase emulators:start
 
-# To Start Firebase local Storage:
+# To Start OPEN AI Platform:
+1) https://platform.openai.com/settings/organization/api-keys
 
--> firebase emulators:start
 
 
 
