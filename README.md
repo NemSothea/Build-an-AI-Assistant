@@ -22,6 +22,10 @@ This is the first part of a new series where we will build an AI Assistant Expen
 
 -> firebase emulators:start
 
+# To Start Firebase local Storage:
+
+-> firebase emulators:start
+
 
 
 # git Tip 
