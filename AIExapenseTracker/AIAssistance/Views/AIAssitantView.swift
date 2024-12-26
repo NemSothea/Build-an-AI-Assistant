@@ -9,7 +9,7 @@ import SwiftUI
 
 
 let KOSIGNAPIKEY =
-"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"
+"your api key"
 
 enum ChatType : String,CaseIterable, Identifiable {
     
