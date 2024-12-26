@@ -22,3 +22,16 @@ This is the first part of a new series where we will build an AI Assistant Expen
 
 -> firebase emulators:start
 
+
+
+# git Tip 
+1.  git status : See the Changes not staged for commit.
+    ex :     modified:   AIExapenseTracker.xcodeproj/project.xcworkspace/xcuserdata/sothea007.xcuserdatad/UserInterfaceState.xcuserstate
+2. remove unwanted :
+    git rm --cached AIExapenseTracker.xcodeproj/project.xcworkspace/xcuserdata/sothea007.xcuserdatad/UserInterfaceState.xcuserstate\
+3. git commit -m "Removed file that shouldn't be tracked"
+4. recheck git status :  git status 
+    
+
+
+
