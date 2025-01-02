@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+import ChatGPTUI
 
-
+#warning("Don't commit this api key to git")
 let KOSIGNAPIKEY =
 "your api key"
 
@@ -20,6 +21,7 @@ enum ChatType : String,CaseIterable, Identifiable {
 
 struct AIAssitantView: View {
     
+    @State var textChatVM = AIAssistantTextChatViewModel(apiKey: KOSIGNAPIKEY)
     @State var chatType: ChatType = .text
     
     var body: some View {
@@ -38,10 +40,14 @@ struct AIAssitantView: View {
             ZStack {
                 switch chatType {
                 case .text:
-                        // Will move code to use ChatGPT
-                    Text("Voice CHAT")
+                       
+                    
+                    TextChatView(customContentVM: textChatVM)
+                    
+//                    TextChatView(model:.gpt_hyphen_3_period_5_hyphen_turbo,apiKey: KOSIGNAPIKEY)
+                    
                 case .void:
-                    Text("Voice CHAT")
+                    VoiceChatView(model:.gpt_hyphen_3_period_5_hyphen_turbo_hyphen_1106,apiKey: KOSIGNAPIKEY)
                 }
             }
             .frame(maxWidth: 1024,alignment: .center)

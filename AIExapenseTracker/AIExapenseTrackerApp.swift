@@ -6,11 +6,6 @@
 //
 
 import SwiftUI
-import Defaults
-
-import Sparkle
-import SwiftUI
-import SwiftData
 
 @main
 struct AIExapenseTrackerApp: App {
@@ -19,7 +14,6 @@ struct AIExapenseTrackerApp: App {
     
     @NSApplicationDelegateAdaptor private var appDelegate: AppDelegate
     
-   
     
 #else
     @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
