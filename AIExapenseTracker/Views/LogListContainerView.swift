@@ -43,7 +43,7 @@ struct LogListContainerView: View {
         }
         
 #if !os(macOS)
-    .navigationBarTitle("KOSIGN AI Expense Tracker",displayMode:.inline)
+    .navigationBarTitle("AI Expense Tracker",displayMode:.inline)
 #endif
     }
     

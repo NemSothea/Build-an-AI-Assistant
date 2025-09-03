@@ -42,6 +42,12 @@ struct ContentView: View {
             .tabItem {
                 Label("AI Assistant", systemImage: "waveform")
             }.tag(1)
+            NavigationStack {
+                LoginView()
+            }
+            .tabItem {
+                    Label("Profile", systemImage: "person.circle")
+            }.tag(2)
         }
     }
     var splitView : some View {
@@ -53,13 +59,17 @@ struct ContentView: View {
                 NavigationLink(destination: AIAssitantView()) {
                     Label("AI Assistant", systemImage: "waveform")
                 }
+                
+                NavigationLink(destination:  LoginView()) {
+                    Label("Account", systemImage: "person.circle")
+                }
             }
-         
+            
             
         } detail : {
             LogListContainerView(vm: $vm)
         }
-        .navigationTitle("KOSIGN AI Expenses Tracker")
+        .navigationTitle("AI Expenses Tracker")
     }
 }
 

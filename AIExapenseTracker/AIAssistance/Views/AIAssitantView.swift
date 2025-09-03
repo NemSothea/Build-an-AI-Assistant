@@ -54,7 +54,7 @@ struct AIAssitantView: View {
 
         }
 #if !os(macOS)
-.navigationBarTitle("KOSIGN AI Exspense Tracker",displayMode:.inline)
+.navigationBarTitle("AI Exspense Tracker",displayMode:.inline)
 #endif
     }
 }
